@@ -5,5 +5,5 @@ ALTER PROCEDURE dbo.GetUserOrders
     @userId INT
 AS
 BEGIN
-    SELECT * FROM dbo.tbl_Myorders WITH(NOLOCK) WHERE users_id = @userId;
+    SELECT * FROM dbo.tbl_Myorders WHERE users_id = @userId;
 END;
