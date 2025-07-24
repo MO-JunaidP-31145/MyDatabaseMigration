@@ -120,3 +120,6 @@ ignoreWithNoCheck = true
 
 [environments.target1]
 url = "jdbc:sqlserver://10.167.203.152:24115;authentication=sqlPassword;databaseName=awacs10;encrypt=true;trustServerCertificate=true"
+
+[environments.target2]
+url = "jdbc:sqlserver://10.167.203.201:24115;authentication=sqlPassword;databaseName=AWACS10;encrypt=true;trustServerCertificate=true"
